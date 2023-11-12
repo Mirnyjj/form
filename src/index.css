@@ -1,0 +1,21 @@
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 5px;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #91b0df;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(147, 211, 192);
+}
+
+
+body {
+  justify-content: center;
+  min-height: 100vh;
+	display: flex;
+  align-items: center;
+  background-color: rgba(194, 196, 207, 0.281);
+}

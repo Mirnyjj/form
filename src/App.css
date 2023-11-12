@@ -1,0 +1,24 @@
+.header {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-row-gap: 15px;
+}
+
+input {
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+}
+.error {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: red;
+  font-size: 10px;
+}
